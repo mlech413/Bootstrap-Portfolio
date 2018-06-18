@@ -113,16 +113,16 @@ body {
   /* portfolio page */
   
     .work img {
-    width: 100%;
-     opacity: 0.8;
+    width: 400px;
+    opacity: 0.8;
     margin-bottom: 20px;
   }
   
   .work h3 {
     position: absolute;
     bottom: 20px;
-    width: 88%;
-    padding: 15px;
+    width: 400px;
+    padding: 5px;
     margin-bottom: 20px;
     font-weight: 300;
     line-height: 30px;
@@ -131,7 +131,7 @@ body {
     background: #4aaaa5;
     border-bottom: 0;
   }
-  
+
   .auth-image {
     float: left;
     width: 200px;

@@ -144,3 +144,87 @@ body {
   .btn-info {
     background: #4aaaa5;
   }
+
+     /* When screen size 1350 px and below */
+     @media screen and (max-width: 1350px) {
+
+      .work img {
+        width: 300px;
+      }
+      .work h3 {
+        width: 300px;
+      }
+    }
+
+           /* When screen size 1050 px and below */
+     @media screen and (max-width: 1050px) {
+
+      .work img {
+        width: 250px;
+      }
+      .work h3 {
+        width: 250px;
+      }
+    }
+
+   /* When screen size 980px and below */
+   @media screen and (max-width: 980px) {
+
+
+    .container {
+      width: 700px;
+    }
+    #main-container {
+      padding-top: 120px;
+    }
+  }
+
+  /* When screen size 768px and below */
+  @media screen and (max-width: 768px) {
+    .work img {
+      width: 150px;
+      margin-bottom: 40px;
+    }
+    .work h3 {
+      width: 150px;
+      margin-bottom: 10px;
+      font-size: 80%
+    }
+    .container {
+      width: 92%;
+    }
+  }
+
+  /* When screen size 640px and below */
+  @media screen and (max-width: 640px) {
+    .container {
+      width: 95%;
+    }
+    #main-container {
+      padding-top: 0;
+    }
+    #masthead {
+      position: static;
+    }
+    #logo {
+      width: 100%;
+    }
+    nav {
+      clear: both;
+      text-align: center;
+      width: 100%;
+      margin-left: 0;
+      font-size: 15px;
+    }
+  }
+  
+
+  /* When screen size 360px and below */
+  /* Prevent Portfolio images from extending past right edge on smallest sizes */
+  @media screen and (max-width: 360px) {
+    .work {
+      position: relative;
+      float: left;
+      width: 100%;
+    }
+  }

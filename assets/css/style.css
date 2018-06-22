@@ -113,7 +113,7 @@ body {
   /* portfolio page */
   
     .work img {
-    width: 400px;
+    width: 325px;
     opacity: 0.8;
     margin-bottom: 20px;
   }
@@ -121,7 +121,7 @@ body {
   .work h3 {
     position: absolute;
     bottom: 20px;
-    width: 400px;
+    width: 325px;
     padding: 5px;
     margin-bottom: 20px;
     font-weight: 300;
@@ -145,7 +145,7 @@ body {
     background: #4aaaa5;
   }
 
-     /* When screen size 1350 px and below */
+/*  
      @media screen and (max-width: 1350px) {
 
       .work img {
@@ -156,7 +156,7 @@ body {
       }
     }
 
-           /* When screen size 1050 px and below */
+           
      @media screen and (max-width: 1050px) {
 
       .work img {
@@ -167,7 +167,6 @@ body {
       }
     }
 
-   /* When screen size 980px and below */
    @media screen and (max-width: 980px) {
 
 
@@ -179,7 +178,6 @@ body {
     }
   }
 
-  /* When screen size 768px and below */
   @media screen and (max-width: 768px) {
     .work img {
       width: 150px;
@@ -195,7 +193,6 @@ body {
     }
   }
 
-  /* When screen size 640px and below */
   @media screen and (max-width: 640px) {
     .container {
       width: 95%;
@@ -218,13 +215,10 @@ body {
     }
   }
   
-
-  /* When screen size 360px and below */
-  /* Prevent Portfolio images from extending past right edge on smallest sizes */
   @media screen and (max-width: 360px) {
     .work {
       position: relative;
       float: left;
       width: 100%;
     }
-  }
+  } */
